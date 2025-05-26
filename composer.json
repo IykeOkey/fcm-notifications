@@ -1,21 +1,19 @@
 {
-    "name": "tomatophp/fcm-notifications",
-    "description": "FCM (Firebase Cloud Messaging) Notifications Driver for Laravel",
-    "homepage": "https://github.com/laravel-notification-channels/fcm",
+    "name": "okeyiyke/fcm-notifications",
+    "description": "FCM Notifications Driver for Laravel v12",
     "license": "MIT",
     "authors": [
         {
-            "name": "Chris Bautista",
-            "email": "chris.bautista@coreproc.ph",
-            "homepage": "https://coreproc.com",
+            "name": "John Okechukwu",
+            "email": "okeyiyke@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": ">= 8.2",
         "guzzlehttp/guzzle": "^7.0",
-        "illuminate/notifications": "^10.0|^11.0",
-        "illuminate/support": "^10.0|^11.0",
+        "illuminate/notifications": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^^10.0|^11.0|^12.0",
         "tomatophp/laravel-firebase": "^1.0"
     },
     "require-dev": {
@@ -37,5 +35,12 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/IykeOkey/fcm-notifications"
     }
+]
+
 }
