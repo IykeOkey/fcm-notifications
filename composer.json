@@ -37,10 +37,11 @@
         "sort-packages": true
     },
     "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/IykeOkey/fcm-notifications"
-    }
-]
-
+        {
+            "type": "vcs",
+            "url": "https://github.com/IykeOkey/fcm-notifications"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
